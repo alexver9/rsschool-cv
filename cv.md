@@ -39,7 +39,7 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 ---
 
 ## Courses:
-- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+- RS Schools Course JavaScript/Front-end. Stage 0 (in progress)
 
 ---
 
