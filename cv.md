@@ -10,8 +10,6 @@ __E-mail:__ vergunov_al@mail.ru
 
 __Telegram:__ AlexeyVergunov
 
-__Discord:__ alex9ver
-
 ---
 
 ## About Me:
