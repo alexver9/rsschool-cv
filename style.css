@@ -10,19 +10,20 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 410;
   line-height: 1.4;
-  color: #000000;    
+  color: #000000d3;    
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
+  min-height: 65px;  
 }
 
 .header {
@@ -41,12 +42,8 @@ body {
   line-height: 50px;
   text-decoration: none;
   font-size: 20px;
-  font-weight: 300px;
+  font-weight: 300;
   color: hsl(0, 0%, 100%);  
-}
-
-.nav-link:hover {
-  transition: .3s;
 }
 
 .main-container {
@@ -54,8 +51,11 @@ body {
     flex-wrap: wrap;
 }
   
-  .section {
-    width: 50%;
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #688392;
 }
 
 @media (max-width: 768px) {
@@ -72,48 +72,6 @@ body {
     color: #527485;
 }
 
-.rss {
-    width: 301px;
-    height: 430px;
-    background-image: url();
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
-.link {
-    text-decoration: none;
-    color: #ec2626;
-    transition: color 0.5s;
-  }
-  
-.link:hover {
-    color: #ff0022;
-  }
-
-.section-item {
-    position: relative;
-    padding-left: 30px;
-}
-  
-.section-item::before {
-    content: "";
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 10px;
-    height: 10px; 
-    border: 1px solid #ff0808;
-    border-radius: 50%;
-}
-
-
-
-.Доделать ava{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 0%;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-    filter: grayscale(0.2) brightness(1.05);
-    transition: .3s;
+.footer {
+    background-color: #688392;
   }
